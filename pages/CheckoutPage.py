@@ -1,4 +1,3 @@
-
 from pages.BasePage import BasePage
 
 
@@ -35,4 +34,10 @@ class CheckoutPage(BasePage):
         return self.click_element("cancel_button_xpath",self.cancel_button_xpath)
     def your_cart(self):
         return self.check_display_status_of_element("your_cart_assert_xpath",self.your_cart_assert_xpath
-                                                    )
+                                                   )
+    def checkout_information(self,first_name,last_name,postal_code):
+        self.enter_first_name(first_name)
+        self.enter_last_name(last_name)
+        self.enter_zip_code(postal_code)
+
+
