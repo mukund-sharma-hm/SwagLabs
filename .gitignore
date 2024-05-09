@@ -15,7 +15,9 @@ __pycache__/
 .Python
 build/
 .idea/
-evelop-eggs/
+
+develop-eggs/
+
 dist/
 downloads/
 eggs/
