@@ -15,6 +15,10 @@ __pycache__/
 .Python
 build/
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.idea/
+>>>>>>> 86c0866 (gitignore added)
 =======
 .idea/
 >>>>>>> 86c0866 (gitignore added)
